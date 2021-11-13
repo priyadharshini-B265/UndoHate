@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="webthemez">
+    <title>Text Analysis</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> 
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="https://st4.depositphotos.com/16030310/25187/v/600/depositphotos_251875546-stock-illustration-simple-vector-illustration-red-black.jpg"> 
+</head>
+<body>
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img class="navbar-brand-logo" src="images/logo.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll"><a href="index.html">Home</a></li>
+                        <li class="scroll active"><a href="#">Text</a></li>
+                        <li class="scroll"><a href="image.html">Image</a></li>
+                        <li class="scroll"><a href="video.html">Video</a></li>
+                        <li class="scroll"><a href="audio.html">Audio</a></li>
+                        <li class="scroll"><a href="#">Login</a></li>
+                        <li class="scroll"><a href="#">Register</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+    <section id="contact">
+        <br><br>
+        <div class="container">
+            <div class="container contact-info">
+                <center> <h2>Detecting and Monitoring Hate Content</h2></center>
+                <div class="row">
+				  <div class="col-sm-4 col-md-4">
+                        <div class="contact-form"> 
+                            <br>
+                            <h3>About</h3>
+                           
+                           <ul>
+                               <li>UndoHate takes text, image, video and audio input from the user.</li>
+                               <li>It analyses the input and predicts the sentiment or emotion in the content.</li>
+                               <li>It also finds the hate percentage in the input.</li>
+                               <li>For text, image and video input, it hides or blurs the hate content.</li>
+                               <li>For audio, the hate part is muted.</li>
+                               <li>In case of text, it also suggest alternatives to rephrase it to remove hate content while preserving the emotion in the text.</li>
+                           </ul>
+					</div></div>
+                    <div class="col-sm-8 col-md-8">
+                        <br>
+                        <h3>Text Analysis</h3><br>
+                        <div class="contact-form">
+                            
+                            <form id="main-contact-form" name="contact-form" method="post" action="#">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" rows="8" placeholder="Enter your text here" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Analyze text</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+   </section><!--/#bottom-->
+
+</body>
+</html>
